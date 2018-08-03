@@ -1,0 +1,15 @@
+Package: dwpRAP
+Title: Functions to Use on DWP Data
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Matt", "Jamieson", email = "matt.jamieson@dwp.gsi.gov.uk", role = "cre"),
+    person("Aoife", "O Neill", email = "aoife.oneill@dwp.gsi.gov.uk", role = "aut"))
+Description: Has a publication cycle filter function, a function to calculate registrations
+    of ninos in thousands, and two functions that calculate the % change slightly differently
+Depends: R (>= 3.4.1)
+License: 1
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr
+RoxygenNote: 6.1.0
